@@ -132,7 +132,7 @@
         <text x="24" y="120">
           <tspan class="property">role</tspan>
           <tspan class="operator">=</tspan>
-          <tspan class="string">"AI &amp; Full Stack Engineer"</tspan>
+          <tspan class="string">"Full-Stack Developer"</tspan>
           <tspan class="normal">,</tspan>
         </text>
       </g>
@@ -143,11 +143,11 @@
           <tspan class="property">capabilities</tspan>
           <tspan class="operator">=</tspan>
           <tspan class="normal">[</tspan>
-          <tspan class="string">"Machine Learning"</tspan>
+          <tspan class="string">"Python"</tspan>
           <tspan class="normal">, </tspan>
-          <tspan class="string">"Full-Stack Web"</tspan>
+          <tspan class="string">"React"</tspan>
           <tspan class="normal">, </tspan>
-          <tspan class="string">"Scalable Infrastructure"</tspan>
+          <tspan class="string">"Node.js"</tspan>
           <tspan class="normal">]</tspan>
         </text>
       </g>
@@ -188,7 +188,7 @@
       <!-- Line 10 -->
       <g class="code-line line-10" transform="translate(0, 270)">
         <text x="0" y="5">
-          <tspan class="terminal-out">[info] Initializing neural network evaluation metrics...</tspan>
+          <tspan class="terminal-out">[info] Initializing development environment variables...</tspan>
         </text>
       </g>
 

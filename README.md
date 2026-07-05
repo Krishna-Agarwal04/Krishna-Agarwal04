@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Krishna Agarwal - AI Engineer &amp; Full Stack Developer" />
+  <img src="assets/hero.svg" width="100%" alt="Krishna Agarwal - Full Stack Developer &amp; Python Programmer" />
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 ## About Me
 
-I am an **Artificial Intelligence Engineer** and **Full Stack Developer** based in India. I specialize in building intelligent systems that combine clean product design with reliable backend engineering. My work spans deep learning model integration, web platforms, and scalable cloud infrastructure.
+I am a **Full Stack Developer** and **Python Programmer** based in India. I specialize in building responsive web applications and clean backend logic. My focus is on creating simple, high-performing user experiences and reliable code.
 
 <p align="center">
   <img src="assets/terminal.svg" width="100%" alt="Krishna Agarwal Console Log" />
@@ -34,24 +34,24 @@ I am an **Artificial Intelligence Engineer** and **Full Stack Developer** based 
 
 ## Tech Stack
 
-I believe in using the right tool for the job. Here are the core technologies I work with:
+Here are the core technologies I work with:
 
 <table align="center" width="100%">
   <tr>
     <td align="center" width="33%" valign="top">
-      <h4>🧠 Intelligence</h4>
-      <p>Building models and data pipelines</p>
-      <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,sklearn,opencv&amp;theme=dark" alt="AI &amp; ML Skills" />
+      <h4>🧠 Python Dev</h4>
+      <p>Backend &amp; Scripting</p>
+      <img src="https://skillicons.dev/icons?i=py&amp;theme=dark" alt="Python" />
     </td>
     <td align="center" width="33%" valign="top">
-      <h4>💻 Product Engineering</h4>
-      <p>Building beautiful user experiences</p>
-      <img src="https://skillicons.dev/icons?i=ts,js,react,next,nodejs,express&amp;theme=dark" alt="Frontend &amp; Backend Skills" />
+      <h4>💻 Web Engineering</h4>
+      <p>Frontend &amp; Server development</p>
+      <img src="https://skillicons.dev/icons?i=js,react,nodejs&amp;theme=dark" alt="Web Technologies" />
     </td>
     <td align="center" width="33%" valign="top">
-      <h4>⚙️ Systems</h4>
-      <p>Infrastructure, databases &amp; pipelines</p>
-      <img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,aws,git,github&amp;theme=dark" alt="Systems Skills" />
+      <h4>⚙️ Tools</h4>
+      <p>Version Control &amp; Collaboration</p>
+      <img src="https://skillicons.dev/icons?i=git,github&amp;theme=dark" alt="Tools" />
     </td>
   </tr>
 </table>
@@ -61,9 +61,9 @@ I believe in using the right tool for the job. Here are the core technologies I 
 ## GitHub Analytics
 
 <p align="center">
-  <img height="185" src="https://github-readme-stats.vercel.app/api?username=Krishna-Agarwal04&amp;show_icons=true&amp;hide_title=true&amp;hide_border=true&amp;bg_color=0b0f19&amp;text_color=F0F6FC&amp;icon_color=2dd4bf&amp;ring_color=6366f1&amp;border_radius=12&amp;include_all_commits=true&amp;count_private=true" alt="Krishna Agarwal's GitHub Stats" />
+  <img height="185" src="https://github-stats-extended.vercel.app/api?username=Krishna-Agarwal04&amp;show_icons=true&amp;hide_title=true&amp;hide_border=true&amp;bg_color=0b0f19&amp;text_color=F0F6FC&amp;icon_color=2dd4bf&amp;ring_color=6366f1&amp;border_radius=12&amp;include_all_commits=true&amp;count_private=true" alt="Krishna Agarwal's GitHub Stats" />
   &nbsp;&nbsp;
-  <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krishna-Agarwal04&amp;layout=compact&amp;hide_border=true&amp;bg_color=0b0f19&amp;title_color=38bdf8&amp;text_color=F0F6FC&amp;icon_color=2dd4bf&amp;border_radius=12&amp;langs_count=8" alt="Krishna Agarwal's Top Languages" />
+  <img height="185" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Krishna-Agarwal04&amp;layout=compact&amp;hide_border=true&amp;bg_color=0b0f19&amp;title_color=38bdf8&amp;text_color=F0F6FC&amp;icon_color=2dd4bf&amp;border_radius=12&amp;langs_count=8" alt="Krishna Agarwal's Top Languages" />
 </p>
 
 <p align="center">
@@ -88,15 +88,15 @@ I believe in using the right tool for the job. Here are the core technologies I 
 ## Learning Focus
 
 I'm currently sharpening my skills and expanding my domain knowledge in:
-- 🤖 **Agentic Frameworks** — Designing autonomous multi-agent pipelines & planning mechanisms.
-- ⚡ **Performance Optimization** — Tuning React/Next.js bundle sizes and database query speed.
-- 🗄️ **Distributed Infrastructure** — Designing high-availability microservices using Docker, Nginx, and cloud providers.
+- 💻 **Frontend Engineering** — Tuning React/Next.js bundle sizes and responsive web design.
+- 🐍 **Python Scripts** — Automation, web scraping, and writing utility scripts.
+- ⚙️ **Git Workflows** — Clean commit patterns, branch strategy, and team collaboration.
 
 ---
 
 ## Get In Touch
 
-If you want to collaborate on a project, chat about AI/ML, or just say hi, feel free to reach out!
+If you want to collaborate on a project, chat about development, or just say hi, feel free to reach out!
 
 <p align="center">
   📧 <strong>Email:</strong> <a href="mailto:ka8093546@gmail.com">ka8093546@gmail.com</a>

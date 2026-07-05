@@ -121,8 +121,8 @@
 
     <!-- Name and Title -->
     <text x="0" y="190" fill="url(#textGradient)" font-size="64" font-weight="900" letter-spacing="-1">KRISHNA AGARWAL</text>
-    <text x="3" y="235" fill="#38bdf8" font-size="22" font-weight="600" letter-spacing="0.5">AI Engineer &amp; Full Stack Developer</text>
-    <text x="3" y="270" class="monospace" fill="#64748b" font-size="14" letter-spacing="1">building intelligent systems with clean design</text>
+    <text x="3" y="235" fill="#38bdf8" font-size="22" font-weight="600" letter-spacing="0.5">Full Stack Developer &amp; Programmer</text>
+    <text x="3" y="270" class="monospace" fill="#64748b" font-size="14" letter-spacing="1">building responsive web apps with clean code</text>
 
     <!-- Decorative Accent Line -->
     <path d="M3 295 H360" stroke="url(#accentLine)" stroke-width="2.5" stroke-linecap="round"/>
@@ -144,9 +144,9 @@
       
       <!-- Line 2: Stack Focus -->
       <text x="0" y="45" class="monospace" fill="#94a3b8" font-size="13">focus  :</text>
-      <text x="90" y="45" fill="#38bdf8" font-size="14" font-weight="600">AI / Web Platforms</text>
+      <text x="90" y="45" fill="#38bdf8" font-size="14" font-weight="600">Web &amp; Python Dev</text>
 
-      <!-- Line 3: Hobbies / Motto -->
+      <!-- Line 3: Motto -->
       <text x="0" y="75" class="monospace" fill="#94a3b8" font-size="13">motto  :</text>
       <text x="90" y="75" fill="#f8fafc" font-size="13" font-style="italic">Build with execution.</text>
 
