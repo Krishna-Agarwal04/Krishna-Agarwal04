@@ -11,7 +11,7 @@
   <span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
   <a href="mailto:ka8093546@gmail.com">Email</a>
   <span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
-  <a href="https://github.com/ka8093546">GitHub</a>
+  <a href="https://github.com/Krishna-Agarwal04">GitHub</a>
 </p>
 
 <br />
@@ -66,24 +66,24 @@ Focused on useful software, sharp interfaces, and systems that scale with clarit
 ## GitHub Analytics
 
 <p align="center">
-  <img height="178" src="https://github-readme-stats.vercel.app/api?username=ka8093546&amp;show_icons=true&amp;hide_title=true&amp;hide_border=true&amp;bg_color=161B22&amp;text_color=F0F6FC&amp;icon_color=58A6FF&amp;ring_color=79C0FF&amp;border_radius=16&amp;include_all_commits=true&amp;count_private=true" alt="GitHub statistics" />
-  <img height="178" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ka8093546&amp;layout=compact&amp;hide_border=true&amp;bg_color=161B22&amp;title_color=79C0FF&amp;text_color=F0F6FC&amp;border_radius=16&amp;langs_count=8" alt="Most used languages" />
+  <img height="178" src="https://github-readme-stats.vercel.app/api?username=Krishna-Agarwal04&amp;show_icons=true&amp;hide_title=true&amp;hide_border=true&amp;bg_color=161B22&amp;text_color=F0F6FC&amp;icon_color=58A6FF&amp;ring_color=79C0FF&amp;border_radius=16&amp;include_all_commits=true&amp;count_private=true" alt="GitHub statistics" />
+  <img height="178" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krishna-Agarwal04&amp;layout=compact&amp;hide_border=true&amp;bg_color=161B22&amp;title_color=79C0FF&amp;text_color=F0F6FC&amp;border_radius=16&amp;langs_count=8" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ka8093546&amp;theme=github-dark-blue&amp;hide_border=true&amp;background=161B22&amp;ring=58A6FF&amp;fire=79C0FF&amp;currStreakLabel=F0F6FC&amp;sideLabels=F0F6FC&amp;dates=8B949E&amp;border_radius=16" alt="GitHub streak statistics" />
+  <img src="https://streak-stats.demolab.com?user=Krishna-Agarwal04&amp;theme=github-dark-blue&amp;hide_border=true&amp;background=161B22&amp;ring=58A6FF&amp;fire=79C0FF&amp;currStreakLabel=F0F6FC&amp;sideLabels=F0F6FC&amp;dates=8B949E&amp;border_radius=16" alt="GitHub streak statistics" />
 </p>
 
 ## Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ka8093546&amp;bg_color=0D1117&amp;color=F0F6FC&amp;line=58A6FF&amp;point=79C0FF&amp;area=true&amp;area_color=58A6FF&amp;hide_border=true&amp;radius=16" alt="GitHub contribution activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Krishna-Agarwal04&amp;bg_color=0D1117&amp;color=F0F6FC&amp;line=58A6FF&amp;point=79C0FF&amp;area=true&amp;area_color=58A6FF&amp;hide_border=true&amp;radius=16" alt="GitHub contribution activity graph" />
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ka8093546/ka8093546/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/ka8093546/ka8093546/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krishna-Agarwal04/Krishna-Agarwal04/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/Krishna-Agarwal04/Krishna-Agarwal04/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" />
   </picture>
 </p>
 
