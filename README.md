@@ -1,83 +1,79 @@
 <div align="center">
-  <img src="assets/logo.svg" width="96" alt="Krishna Agarwal monogram" />
+  <img src="assets/logo.svg" width="96" alt="Krishna Agarwal Monogram Logo" />
 </div>
 
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Krishna Agarwal - Artificial Intelligence Engineer" />
+  <img src="assets/hero.svg" width="100%" alt="Krishna Agarwal - AI Engineer &amp; Full Stack Developer" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/krishna-agarwal-2133ba379">LinkedIn</a>
-  <span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
-  <a href="mailto:ka8093546@gmail.com">Email</a>
-  <span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
-  <a href="https://github.com/Krishna-Agarwal04">GitHub</a>
+  <a href="https://www.linkedin.com/in/krishna-agarwal-2133ba379">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:ka8093546@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Krishna-Agarwal04">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </p>
 
 <br />
 
-<p align="center">
-  <img src="assets/background.svg" width="100%" alt="A futuristic glassmorphism section divider" />
-</p>
+## About Me
 
-## About
-
-Artificial Intelligence Engineer and Full Stack Developer from India.  
-I build intelligent systems that combine clean product thinking with reliable engineering.  
-My work sits across AI, web platforms, cloud infrastructure, and polished developer experiences.  
-Focused on useful software, sharp interfaces, and systems that scale with clarity.
+I am an **Artificial Intelligence Engineer** and **Full Stack Developer** based in India. I specialize in building intelligent systems that combine clean product design with reliable backend engineering. My work spans deep learning model integration, web platforms, and scalable cloud infrastructure.
 
 <p align="center">
-  <img src="assets/terminal.svg" width="100%" alt="Compact terminal card describing Krishna Agarwal's engineering focus" />
+  <img src="assets/terminal.svg" width="100%" alt="Krishna Agarwal Console Log" />
 </p>
+
+---
 
 ## Tech Stack
 
-<p align="center">
-  <img src="assets/icons.svg" width="100%" alt="Premium tech stack category cards" />
-</p>
+I believe in using the right tool for the job. Here are the core technologies I work with:
 
-<table>
+<table align="center" width="100%">
   <tr>
-    <td align="center" width="33%">
-      <strong>Intelligence</strong>
-      <br /><br />
-      <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,sklearn,opencv&amp;theme=dark" alt="AI and machine learning skill icons" />
+    <td align="center" width="33%" valign="top">
+      <h4>🧠 Intelligence</h4>
+      <p>Building models and data pipelines</p>
+      <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,sklearn,opencv&amp;theme=dark" alt="AI &amp; ML Skills" />
     </td>
-    <td align="center" width="33%">
-      <strong>Product Engineering</strong>
-      <br /><br />
-      <img src="https://skillicons.dev/icons?i=ts,js,react,next,nodejs,express&amp;theme=dark" alt="Frontend and backend skill icons" />
+    <td align="center" width="33%" valign="top">
+      <h4>💻 Product Engineering</h4>
+      <p>Building beautiful user experiences</p>
+      <img src="https://skillicons.dev/icons?i=ts,js,react,next,nodejs,express&amp;theme=dark" alt="Frontend &amp; Backend Skills" />
     </td>
-    <td align="center" width="33%">
-      <strong>Systems</strong>
-      <br /><br />
-      <img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,aws,git,github&amp;theme=dark" alt="Cloud and systems skill icons" />
+    <td align="center" width="33%" valign="top">
+      <h4>⚙️ Systems</h4>
+      <p>Infrastructure, databases &amp; pipelines</p>
+      <img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,aws,git,github&amp;theme=dark" alt="Systems Skills" />
     </td>
   </tr>
 </table>
 
-<br />
-
-<p align="center">
-  <img src="assets/grid.svg" width="100%" alt="Animated grid and orbit graphic" />
-</p>
+---
 
 ## GitHub Analytics
 
 <p align="center">
-  <img height="178" src="https://github-readme-stats.vercel.app/api?username=Krishna-Agarwal04&amp;show_icons=true&amp;hide_title=true&amp;hide_border=true&amp;bg_color=161B22&amp;text_color=F0F6FC&amp;icon_color=58A6FF&amp;ring_color=79C0FF&amp;border_radius=16&amp;include_all_commits=true&amp;count_private=true" alt="GitHub statistics" />
-  <img height="178" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krishna-Agarwal04&amp;layout=compact&amp;hide_border=true&amp;bg_color=161B22&amp;title_color=79C0FF&amp;text_color=F0F6FC&amp;border_radius=16&amp;langs_count=8" alt="Most used languages" />
+  <img height="185" src="https://github-readme-stats.vercel.app/api?username=Krishna-Agarwal04&amp;show_icons=true&amp;hide_title=true&amp;hide_border=true&amp;bg_color=0b0f19&amp;text_color=F0F6FC&amp;icon_color=2dd4bf&amp;ring_color=6366f1&amp;border_radius=12&amp;include_all_commits=true&amp;count_private=true" alt="Krishna Agarwal's GitHub Stats" />
+  &nbsp;&nbsp;
+  <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krishna-Agarwal04&amp;layout=compact&amp;hide_border=true&amp;bg_color=0b0f19&amp;title_color=38bdf8&amp;text_color=F0F6FC&amp;icon_color=2dd4bf&amp;border_radius=12&amp;langs_count=8" alt="Krishna Agarwal's Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Krishna-Agarwal04&amp;theme=github-dark-blue&amp;hide_border=true&amp;background=161B22&amp;ring=58A6FF&amp;fire=79C0FF&amp;currStreakLabel=F0F6FC&amp;sideLabels=F0F6FC&amp;dates=8B949E&amp;border_radius=16" alt="GitHub streak statistics" />
+  <img src="https://streak-stats.demolab.com?user=Krishna-Agarwal04&amp;theme=github-dark-blue&amp;hide_border=true&amp;background=0b0f19&amp;ring=6366f1&amp;fire=2dd4bf&amp;currStreakLabel=f8fafc&amp;sideLabels=94a3b8&amp;dates=64748b&amp;border_radius=12" alt="Krishna Agarwal's GitHub Streak" />
 </p>
 
-## Contribution Graph
+### Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Krishna-Agarwal04&amp;bg_color=0D1117&amp;color=F0F6FC&amp;line=58A6FF&amp;point=79C0FF&amp;area=true&amp;area_color=58A6FF&amp;hide_border=true&amp;radius=16" alt="GitHub contribution activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Krishna-Agarwal04&amp;bg_color=0b0f19&amp;color=f8fafc&amp;line=6366f1&amp;point=2dd4bf&amp;area=true&amp;area_color=6366f1&amp;hide_border=true&amp;radius=12" width="100%" alt="Krishna Agarwal's Contribution Graph" />
 </p>
 
 <p align="center">
@@ -87,21 +83,28 @@ Focused on useful software, sharp interfaces, and systems that scale with clarit
   </picture>
 </p>
 
-## Learning
+---
+
+## Learning Focus
+
+I'm currently sharpening my skills and expanding my domain knowledge in:
+- 🤖 **Agentic Frameworks** — Designing autonomous multi-agent pipelines & planning mechanisms.
+- ⚡ **Performance Optimization** — Tuning React/Next.js bundle sizes and database query speed.
+- 🗄️ **Distributed Infrastructure** — Designing high-availability microservices using Docker, Nginx, and cloud providers.
+
+---
+
+## Get In Touch
+
+If you want to collaborate on a project, chat about AI/ML, or just say hi, feel free to reach out!
 
 <p align="center">
-  <img src="assets/glow.svg" width="100%" alt="Learning roadmap cards for AI, machine learning, deep learning, backend, frontend, and cloud" />
+  📧 <strong>Email:</strong> <a href="mailto:ka8093546@gmail.com">ka8093546@gmail.com</a>
+  &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/krishna-agarwal-2133ba379">linkedin.com/in/krishna-agarwal-2133ba379</a>
 </p>
 
-## Contact
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/krishna-agarwal-2133ba379">linkedin.com/in/krishna-agarwal-2133ba379</a>
   <br />
-  <a href="mailto:ka8093546@gmail.com">ka8093546@gmail.com</a>
+  <sub>Designed &amp; Built with ☕ &amp; code. © 2026 Krishna Agarwal</sub>
 </p>
-
-<p align="center">
-  <img src="assets/footer.svg" width="100%" alt="Animated minimal footer wave" />
-</p>
-

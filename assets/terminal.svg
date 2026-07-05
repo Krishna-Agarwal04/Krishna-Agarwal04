@@ -1,58 +1,204 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Compact engineering terminal</title>
-  <desc id="desc">A compact animated terminal card with gradients, blur, glow, grid, floating objects, noise, and aurora effect.</desc>
+  <title id="title">Developer Console Terminal</title>
+  <desc id="desc">Animated terminal window displaying a mock Python AI pipeline initialization for Krishna Agarwal.</desc>
   <style>
-    @keyframes cursor { 0%,45% { opacity: 1; } 46%,100% { opacity: 0; } }
-    @keyframes aurora { 0%,100% { transform: translateX(-30px); opacity: .3; } 50% { transform: translateX(34px); opacity: .68; } }
-    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
-    @keyframes dash { to { stroke-dashoffset: -120; } }
-    .cursor { animation: cursor 1.1s step-end infinite; }
-    .aurora { animation: aurora 8s ease-in-out infinite; }
-    .particle { animation: float 7s ease-in-out infinite; }
-    .dash { stroke-dasharray: 9 15; animation: dash 8s linear infinite; }
-    text { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    @keyframes cursorBlink {
+      0%, 45% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes typingText {
+      from { stroke-dashoffset: 400; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes lineFadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .cursor { animation: cursorBlink 1.1s step-end infinite; }
+    .code-line { animation: lineFadeIn 0.8s ease-out forwards; opacity: 0; }
+    .line-1 { animation-delay: 0.2s; }
+    .line-2 { animation-delay: 0.6s; }
+    .line-3 { animation-delay: 1.0s; }
+    .line-4 { animation-delay: 1.4s; }
+    .line-5 { animation-delay: 1.8s; }
+    .line-6 { animation-delay: 2.2s; }
+    .line-7 { animation-delay: 2.6s; }
+    .line-8 { animation-delay: 3.0s; }
+    .line-9 { animation-delay: 3.4s; }
+    .line-10 { animation-delay: 3.8s; }
+    .line-11 { animation-delay: 4.2s; }
+    
+    text {
+      font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+      font-size: 14px;
+    }
+    .keyword { fill: #c792ea; font-weight: bold; }
+    .class-name { fill: #f8c555; }
+    .function-call { fill: #82aaff; }
+    .string { fill: #c3e88d; }
+    .comment { fill: #546e7a; font-style: italic; }
+    .variable { fill: #ff5370; }
+    .property { fill: #f07178; }
+    .operator { fill: #89ddff; }
+    .number { fill: #f78c6c; }
+    .normal { fill: #eeffff; }
+    .prompt { fill: #c3e88d; font-weight: bold; }
+    .terminal-out { fill: #89ddff; }
   </style>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0D1117"/>
-      <stop offset=".5" stop-color="#161B22"/>
-      <stop offset="1" stop-color="#0D1117"/>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080710"/>
+      <stop offset="0.5" stop-color="#0c0e17"/>
+      <stop offset="1" stop-color="#080710"/>
     </linearGradient>
-    <linearGradient id="border" x1="90" y1="56" x2="1110" y2="364" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#79C0FF" stop-opacity=".85"/>
-      <stop offset=".45" stop-color="#30363D"/>
-      <stop offset="1" stop-color="#58A6FF" stop-opacity=".7"/>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3b82f6" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#1e293b" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0.5"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(652 226) scale(470 150)">
-      <stop stop-color="#58A6FF" stop-opacity=".28"/>
-      <stop offset="1" stop-color="#58A6FF" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
-      <path d="M38 0H0V38" stroke="#30363D" stroke-opacity=".24"/>
-    </pattern>
-    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
-    <filter id="noise" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" seed="11"/>
-      <feColorMatrix type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="table" tableValues="0 .06"/></feComponentTransfer>
+    
+    <!-- Shadow filter for window depth -->
+    <filter id="windowShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.45"/>
     </filter>
   </defs>
-  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
-  <rect width="1200" height="420" rx="28" filter="url(#noise)" opacity=".65"/>
-  <ellipse class="aurora" cx="610" cy="222" rx="470" ry="150" fill="url(#glow)" filter="url(#blur)"/>
-  <rect x="90" y="56" width="1020" height="308" rx="26" fill="#161B22" fill-opacity=".72" stroke="url(#border)" stroke-width="1.4"/>
-  <path class="dash" d="M136 128H1064" stroke="#30363D" stroke-linecap="round"/>
-  <circle cx="128" cy="93" r="7" fill="#30363D"/>
-  <circle cx="152" cy="93" r="7" fill="#30363D"/>
-  <circle cx="176" cy="93" r="7" fill="#79C0FF" fill-opacity=".8"/>
-  <text x="136" y="162" fill="#79C0FF" font-size="16">$ profile.init()</text>
-  <text x="136" y="199" fill="#F0F6FC" font-size="18">role: Artificial Intelligence Engineer</text>
-  <text x="136" y="235" fill="#F0F6FC" font-size="18">stack: AI systems, full stack products, cloud deployment</text>
-  <text x="136" y="271" fill="#8B949E" font-size="18">principle: ship clean interfaces around powerful models</text>
-  <text x="136" y="307" fill="#79C0FF" font-size="16">$ build --with clarity</text>
-  <rect class="cursor" x="342" y="292" width="10" height="22" rx="2" fill="#79C0FF"/>
-  <circle class="particle" cx="975" cy="144" r="3" fill="#79C0FF"/>
-  <circle class="particle" cx="1012" cy="278" r="2.5" fill="#F0F6FC"/>
-  <rect x=".75" y=".75" width="1198.5" height="418.5" rx="27.25" stroke="#30363D" stroke-opacity=".88" stroke-width="1.5"/>
+
+  <!-- Base Grid/Noise Surface (Matches Hero) -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="418.5" rx="15.25" stroke="url(#borderGrad)" stroke-width="1.5"/>
+
+  <!-- Terminal Window Container -->
+  <g transform="translate(60, 40)" filter="url(#windowShadow)">
+    <!-- Terminal Window Frame -->
+    <rect width="1080" height="340" rx="12" fill="#0b0f19" fill-opacity="0.85" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Header Bar -->
+    <path d="M0 12C0 5.37258 5.37258 0 12 0H1068C1074.63 0 1080 5.37258 1080 12V34H0V12Z" fill="#0f172a" stroke="#1e293b" stroke-width="0.5"/>
+    
+    <!-- Window Control Buttons (Mac-Style Monochromatic/Glow) -->
+    <circle cx="20" cy="17" r="6" fill="#f87171" fill-opacity="0.9"/>
+    <circle cx="40" cy="17" r="6" fill="#fbbf24" fill-opacity="0.9"/>
+    <circle cx="60" cy="17" r="6" fill="#34d399" fill-opacity="0.9"/>
+    
+    <!-- Console Title -->
+    <text x="540" y="22" fill="#64748b" font-size="11" text-anchor="middle" font-weight="600" letter-spacing="1">krishna@core-system: ~/profile</text>
+    
+    <!-- Code Editor Content -->
+    <g transform="translate(30, 60)">
+      <!-- Line 1 -->
+      <g class="code-line line-1">
+        <text x="0" y="20">
+          <tspan class="keyword">import</tspan>
+          <tspan class="normal"> developer </tspan>
+          <tspan class="keyword">from</tspan>
+          <tspan class="normal"> </tspan>
+          <tspan class="string">'krishna'</tspan>
+        </text>
+      </g>
+
+      <!-- Line 2 -->
+      <g class="code-line line-2">
+        <text x="0" y="45">
+          <tspan class="comment"># Define profile credentials and goals</tspan>
+        </text>
+      </g>
+
+      <!-- Line 3 -->
+      <g class="code-line line-3">
+        <text x="0" y="70">
+          <tspan class="variable">eng</tspan>
+          <tspan class="operator"> = </tspan>
+          <tspan class="normal">developer.</tspan>
+          <tspan class="function-call">Engineer</tspan>
+          <tspan class="normal">(</tspan>
+        </text>
+      </g>
+
+      <!-- Line 4 -->
+      <g class="code-line line-4">
+        <text x="24" y="95">
+          <tspan class="property">name</tspan>
+          <tspan class="operator">=</tspan>
+          <tspan class="string">"Krishna Agarwal"</tspan>
+          <tspan class="normal">,</tspan>
+        </text>
+      </g>
+
+      <!-- Line 5 -->
+      <g class="code-line line-5">
+        <text x="24" y="120">
+          <tspan class="property">role</tspan>
+          <tspan class="operator">=</tspan>
+          <tspan class="string">"AI &amp; Full Stack Engineer"</tspan>
+          <tspan class="normal">,</tspan>
+        </text>
+      </g>
+
+      <!-- Line 6 -->
+      <g class="code-line line-6">
+        <text x="24" y="145">
+          <tspan class="property">capabilities</tspan>
+          <tspan class="operator">=</tspan>
+          <tspan class="normal">[</tspan>
+          <tspan class="string">"Machine Learning"</tspan>
+          <tspan class="normal">, </tspan>
+          <tspan class="string">"Full-Stack Web"</tspan>
+          <tspan class="normal">, </tspan>
+          <tspan class="string">"Scalable Infrastructure"</tspan>
+          <tspan class="normal">]</tspan>
+        </text>
+      </g>
+
+      <!-- Line 7 -->
+      <g class="code-line line-7">
+        <text x="0" y="170">
+          <tspan class="normal">)</tspan>
+        </text>
+      </g>
+
+      <!-- Line 8 -->
+      <g class="code-line line-8">
+        <text x="0" y="200">
+          <tspan class="variable">eng</tspan>
+          <tspan class="normal">.</tspan>
+          <tspan class="function-call">initialize_system</tspan>
+          <tspan class="normal">(</tspan>
+          <tspan class="property">mode</tspan>
+          <tspan class="operator">=</tspan>
+          <tspan class="string">"production"</tspan>
+          <tspan class="normal">)</tspan>
+        </text>
+      </g>
+
+      <!-- Horizontal Divider for Terminal Output -->
+      <line x1="-10" y1="220" x2="1030" y2="220" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 6"/>
+
+      <!-- Terminal Prompt and Output Simulation -->
+      <!-- Line 9 -->
+      <g class="code-line line-9" transform="translate(0, 245)">
+        <text x="0" y="5">
+          <tspan class="prompt">$ </tspan>
+          <tspan class="normal">python profile_run.py</tspan>
+        </text>
+      </g>
+
+      <!-- Line 10 -->
+      <g class="code-line line-10" transform="translate(0, 270)">
+        <text x="0" y="5">
+          <tspan class="terminal-out">[info] Initializing neural network evaluation metrics...</tspan>
+        </text>
+      </g>
+
+      <!-- Line 11 -->
+      <g class="code-line line-11" transform="translate(0, 295)">
+        <text x="0" y="5">
+          <tspan class="string">✓ System Ready. Core components online and fully responsive.</tspan>
+        </text>
+        <rect class="cursor" x="515" y="-9" width="8" height="17" fill="#2dd4bf" rx="1"/>
+      </g>
+    </g>
+  </g>
 </svg>
