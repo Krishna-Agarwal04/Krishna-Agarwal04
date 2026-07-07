@@ -66,9 +66,7 @@ Here are the core technologies I work with:
   <img height="185" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Krishna-Agarwal04&amp;layout=compact&amp;hide_border=true&amp;bg_color=0b0f19&amp;title_color=38bdf8&amp;text_color=F0F6FC&amp;icon_color=2dd4bf&amp;border_radius=12&amp;langs_count=8" alt="Krishna Agarwal's Top Languages" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Krishna-Agarwal04&amp;theme=github-dark-blue&amp;hide_border=true&amp;background=0b0f19&amp;ring=6366f1&amp;fire=2dd4bf&amp;currStreakLabel=f8fafc&amp;sideLabels=94a3b8&amp;dates=64748b&amp;border_radius=12" alt="Krishna Agarwal's GitHub Streak" />
-</p>
+<!-- Removed unstable streak stats to prevent broken images -->
 
 ### Contribution Activity
 
